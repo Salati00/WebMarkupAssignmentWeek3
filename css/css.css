@@ -1,0 +1,32 @@
+.bigInput {
+    width: 300px;
+    height: 200px;
+}
+
+.inputWrapper {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.helpBlock {
+    font-size: x-small;
+    display: block;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea,
+fieldset {
+  width : 100%;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}

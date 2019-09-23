@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week3Homework</title>
+    <link rel="stylesheet " type="text/css" href="css/css.css">
+</head>
+
+<body>
+    <form>
+        <h1>Contact by E-mail</h1>
+        <h2>Please select the topic you're contacting us about</h2>
+        <fieldset>
+            <legend>Contact form</legend>
+            <label for="QuestionType">What is your question about?</label>
+            <select name="QuestionType">
+                <option>Make a choice</option>
+                <option>Question about an order</option>
+                <option>More information about a computer</option>
+                <option>Another question</option>
+            </select>
+            <h2>Contact About</h2>
+            <label for="QuestionTopic">Main Subject</label>
+            <select name="QuestionTopic">
+                <option>Choose topic</option>
+                <option>Ordering and delivery</option>
+                <option>Cancel and return</option>
+                <option>Gift voucher</option>
+                <option>Another question</option>
+            </select>
+            <br>
+            <span class="inputWrapper">
+                <label for="Notes">Note*: </label> <br>
+                <textarea name="Notes" type="text" class="bigInput">
+                </textarea>
+                <small class="helpBlock">These notes can be up to 5000 characters</small>
+            </span>
+            <br>
+            <span class="inputWrapper">
+                <label for="FileInput">Add an attachment?<small>(optional)</small>: </label> <br>
+                <input name="FileInput" type="file">
+                </input>
+                <small class="helpBlock">Up to 10MB in size</small>
+            </span>
+            <br>
+            <span class="inputWrapper">
+                <label for="NameSurname">Name and Surname*:</label> <br>
+                <input name="NameSurname" type="text">
+                </input>
+            </span>
+            <br>
+            <span class="inputWrapper">
+                <label for="PhNum">Phone Number:</label> <br>
+                <input name="PhNum" type="text">
+                </input>
+                <small class="helpBlock">More than 80% of our customer share a reachable phone number, so that we may
+                    help better</small>
+            </span>
+            <br>
+            <span class="inputWrapper">
+                <label for="PhNum">Phone Number:</label> <br>
+                <input name="PhNum" type="text">
+                </input>
+            </span>
+            <br>
+            <span class="inputWrapper">
+                <label for="eMail">E-mail address*:</label> <br>
+                <input name="eMail" type="email">
+                </input>
+            </span>
+            <br>
+            <input type="submit" value="&#62; Send E-mail"></input>
+        </fieldset>
+    </form>
+</body>
+
+</html>
