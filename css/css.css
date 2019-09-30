@@ -3,7 +3,7 @@ input[type=email],
 input[type=number],
 textarea,
 fieldset {
-  width : 100%;
+  width: 100%;
   border: 1px solid #333;
   box-sizing: border-box;
 }
@@ -18,7 +18,7 @@ input:focus:invalid {
 
 video {
   padding-left: 50px;
-  max-width: 400px; 
+  max-width: 400px;
   max-height: 300px;
   z-index: -100;
   background-size: cover;
@@ -26,32 +26,59 @@ video {
 }
 
 .bigInput {
-    width: 300px;
-    height: 200px;
+  width: 300px;
+  height: 200px;
 }
 
 .inputWrapper {
-    vertical-align: top;
-    display: inline-block;
+  vertical-align: top;
+  display: inline-block;
 }
 
 .helpBlock {
-    font-size: x-small;
-    display: block;
+  font-size: x-small;
+  display: block;
 }
 
-.videoWrapper{
-    width:400px;
-    height: 300px;
+.videoWrapper {
+  width: 400px;
+  height: 300px;
 }
 
-.footer
-{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(39, 38, 38, 0.658);
-    color: white;
-    text-align: center;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(39, 38, 38, 0.658);
+  color: white;
+  text-align: center;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+th {
+  font-weight: bold;
+}
+
+td {
+  font-style: italic;
+}
+
+p{
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  color: rgb(65, 105, 105);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+  color: #234567;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+  color: #115511;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
