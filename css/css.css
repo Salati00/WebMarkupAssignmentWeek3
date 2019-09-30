@@ -1,3 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+th {
+  font-weight: bold;
+  color:inherit;
+}
+
+td {
+  font-style: italic;
+  color:inherit;
+}
+
+p{
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  color: rgb(65, 105, 105);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form{
+  color: #115511;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 input[type=text],
 input[type=email],
 input[type=number],
@@ -53,32 +86,4 @@ video {
   background-color: rgba(39, 38, 38, 0.658);
   color: white;
   text-align: center;
-}
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-th {
-  font-weight: bold;
-}
-
-td {
-  font-style: italic;
-}
-
-p{
-  color: #333;
-  font-family: 'Roboto', sans-serif;
-}
-
-header{
-  color: rgb(65, 105, 105);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-table{
-  color: #234567;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-form{
-  color: #115511;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
